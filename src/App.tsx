@@ -2,10 +2,13 @@ import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import "./App.css";
 
-const aiueo =
-  "あ い う え お か き く け こ さ し す せ そ た ち つ て と な に ぬ ね の は ひ ふ へ ほ ま み む め も や ゆ よ ら り る れ ろ わ ー ん が ぎ ぐ げ ご ざ じ ず ぜ ぞ だ ぢ づ で ど ば び ぶ べ ぼ ぱ ぴ ぷ ぺ ぽ ぃ ぅ ぇ ぉ ゃ ゅ ょ っ ゎ".split(
-    " ",
+const NO_MATCH = "該当する言葉がありません";
+
+function katakanaToHiragana(str: string): string {
+  return str.replace(/[\u30A1-\u30F6]/g, (char) =>
+    String.fromCharCode(char.charCodeAt(0) - 0x60),
   );
+}
 
 function komojiFree(str: string): string {
   return str
@@ -32,19 +35,15 @@ function lastChar(input: string): string {
   return char ?? "";
 }
 
-function isValid(input: string): boolean {
-  return input.split("").every((char) => aiueo.includes(char));
-}
-
 export default function App() {
   const [input, setInput] = useState("");
   const [memos, setMemos] = useState<string[]>([]);
   const [butaWords, setButaWords] = useState<string[]>([]);
+  const [lastComputerWord, setLastComputerWord] = useState("");
   const [dictionaryStatus, setDictionaryStatus] = useState<
     "loading" | "ready" | "error"
   >("loading");
 
-  // 外部の豚辞書を読み込む
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/buta_words.txt`)
       .then((response) => {
@@ -71,12 +70,12 @@ export default function App() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!isValid(input)) {
-      setInput("");
-      return;
-    }
+    const isBlank = input.trim() === "";
+    const hasKanji = /\p{Script=Han}/u.test(input);
 
-    const normalizedInput = komojiFree(input);
+    const baseWord = isBlank || hasKanji ? lastComputerWord : input;
+
+    const normalizedInput = komojiFree(katakanaToHiragana(baseWord));
 
     const selectedDictionary = butaWords.filter((word) =>
       word.startsWith(lastChar(normalizedInput)),
@@ -84,53 +83,70 @@ export default function App() {
 
     const randomIndex = Math.floor(Math.random() * selectedDictionary.length);
 
-    const feedback = butaWords.includes(normalizedInput)
-      ? ""
-      : " は豚辞書にありません";
-
-    const computerAnswer =
-      selectedDictionary[randomIndex] ?? "該当する言葉がありません";
+    const computerAnswer = selectedDictionary[randomIndex] ?? NO_MATCH;
 
     setMemos((previous) => [
       ...previous,
-      `${input}${feedback}`,
+      ...(isBlank ? [] : [input]),
       computerAnswer,
     ]);
+
+    if (computerAnswer !== NO_MATCH) {
+      setLastComputerWord(computerAnswer);
+    }
 
     setInput("");
   };
 
-  return (
-    <div style={{ textAlign: "center", width: "400px", margin: "60px auto" }}>
-      <h1>しりとり</h1>
+  const googleSearchUrl = (word: string) =>
+    `https://www.google.com/search?q=${encodeURIComponent(word)}`;
 
-      <p>ひらかなで入力してください</p>
+  return (
+    <div className="shiritori-app">
+      <section className="introduction">
+        <p>
+          暇つぶし・アイデア出しのためのしりとりゲームです。
+          入力チェックはしません。 入力なしでもEnterを押すと先へ進みます。
+          「ん」で終わっても大丈夫です。 促音「つ」で終わっても大丈夫です。
+          意外な単語の組み合わせで想像を膨らましてください。
+          豚辞書14版を使いました。
+          「意味を調べる」ボタンはGoogle検索です。ひらがなで入力してください
+        </p>
+      </section>
 
       {dictionaryStatus === "loading" && <p>豚辞書を読み込んでいます...</p>}
 
       {dictionaryStatus === "error" && <p>豚辞書を読み込めませんでした。</p>}
 
-      <form onSubmit={handleSubmit}>
+      <form className="game-form" onSubmit={handleSubmit}>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          style={{ width: "70%" }}
           disabled={dictionaryStatus !== "ready"}
         />
 
-        <button
-          type="submit"
-          disabled={!input.trim() || dictionaryStatus !== "ready"}
-          style={{ width: "27%" }}
-        >
-          Submit
+        <button type="submit" disabled={dictionaryStatus !== "ready"}>
+          Enter
         </button>
       </form>
 
-      <ul style={{ textAlign: "left" }}>
+      <ul className="history-list">
         {memos.map((memo, index) => (
-          <li key={index}>{memo}</li>
+          <li key={index}>
+            <span>{memo}</span>
+
+            {memo !== NO_MATCH && (
+              <a
+                className="meaning-button"
+                href={googleSearchUrl(memo)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                意味を調べる
+              </a>
+            )}
+          </li>
         ))}
       </ul>
     </div>
