@@ -1,0 +1,306 @@
+{
+  "format": "JSON array",
+  "fields": [
+    "reading",
+    "title"
+  ],
+  "normalization": "ひらがな化、小書きかなを大書きに統一",
+  "files": {
+    "あ": {
+      "file": "by_first/3042.json",
+      "count": 73731
+    },
+    "い": {
+      "file": "by_first/3044.json",
+      "count": 61034
+    },
+    "う": {
+      "file": "by_first/3046.json",
+      "count": 28528
+    },
+    "え": {
+      "file": "by_first/3048.json",
+      "count": 23343
+    },
+    "お": {
+      "file": "by_first/304a.json",
+      "count": 66537
+    },
+    "か": {
+      "file": "by_first/304b.json",
+      "count": 77950
+    },
+    "が": {
+      "file": "by_first/304c.json",
+      "count": 9607
+    },
+    "き": {
+      "file": "by_first/304d.json",
+      "count": 46997
+    },
+    "ぎ": {
+      "file": "by_first/304e.json",
+      "count": 7054
+    },
+    "く": {
+      "file": "by_first/304f.json",
+      "count": 30652
+    },
+    "ぐ": {
+      "file": "by_first/3050.json",
+      "count": 7631
+    },
+    "け": {
+      "file": "by_first/3051.json",
+      "count": 12774
+    },
+    "げ": {
+      "file": "by_first/3052.json",
+      "count": 7545
+    },
+    "こ": {
+      "file": "by_first/3053.json",
+      "count": 55030
+    },
+    "ご": {
+      "file": "by_first/3054.json",
+      "count": 8291
+    },
+    "さ": {
+      "file": "by_first/3055.json",
+      "count": 53131
+    },
+    "ざ": {
+      "file": "by_first/3056.json",
+      "count": 4160
+    },
+    "し": {
+      "file": "by_first/3057.json",
+      "count": 74779
+    },
+    "じ": {
+      "file": "by_first/3058.json",
+      "count": 25821
+    },
+    "す": {
+      "file": "by_first/3059.json",
+      "count": 31310
+    },
+    "ず": {
+      "file": "by_first/305a.json",
+      "count": 1224
+    },
+    "せ": {
+      "file": "by_first/305b.json",
+      "count": 26414
+    },
+    "ぜ": {
+      "file": "by_first/305c.json",
+      "count": 5816
+    },
+    "そ": {
+      "file": "by_first/305d.json",
+      "count": 13620
+    },
+    "ぞ": {
+      "file": "by_first/305e.json",
+      "count": 1306
+    },
+    "た": {
+      "file": "by_first/305f.json",
+      "count": 51019
+    },
+    "だ": {
+      "file": "by_first/3060.json",
+      "count": 16299
+    },
+    "ち": {
+      "file": "by_first/3061.json",
+      "count": 30975
+    },
+    "ぢ": {
+      "file": "by_first/3062.json",
+      "count": 45
+    },
+    "つ": {
+      "file": "by_first/3064.json",
+      "count": 13812
+    },
+    "づ": {
+      "file": "by_first/3065.json",
+      "count": 19
+    },
+    "て": {
+      "file": "by_first/3066.json",
+      "count": 16699
+    },
+    "で": {
+      "file": "by_first/3067.json",
+      "count": 9869
+    },
+    "と": {
+      "file": "by_first/3068.json",
+      "count": 42874
+    },
+    "ど": {
+      "file": "by_first/3069.json",
+      "count": 11458
+    },
+    "な": {
+      "file": "by_first/306a.json",
+      "count": 37678
+    },
+    "に": {
+      "file": "by_first/306b.json",
+      "count": 34237
+    },
+    "ぬ": {
+      "file": "by_first/306c.json",
+      "count": 1726
+    },
+    "ね": {
+      "file": "by_first/306d.json",
+      "count": 5824
+    },
+    "の": {
+      "file": "by_first/306e.json",
+      "count": 10113
+    },
+    "は": {
+      "file": "by_first/306f.json",
+      "count": 39327
+    },
+    "ば": {
+      "file": "by_first/3070.json",
+      "count": 12700
+    },
+    "ぱ": {
+      "file": "by_first/3071.json",
+      "count": 7512
+    },
+    "ひ": {
+      "file": "by_first/3072.json",
+      "count": 31498
+    },
+    "び": {
+      "file": "by_first/3073.json",
+      "count": 6531
+    },
+    "ぴ": {
+      "file": "by_first/3074.json",
+      "count": 3353
+    },
+    "ふ": {
+      "file": "by_first/3075.json",
+      "count": 41662
+    },
+    "ぶ": {
+      "file": "by_first/3076.json",
+      "count": 11608
+    },
+    "ぷ": {
+      "file": "by_first/3077.json",
+      "count": 6338
+    },
+    "へ": {
+      "file": "by_first/3078.json",
+      "count": 6407
+    },
+    "べ": {
+      "file": "by_first/3079.json",
+      "count": 6847
+    },
+    "ぺ": {
+      "file": "by_first/307a.json",
+      "count": 3525
+    },
+    "ほ": {
+      "file": "by_first/307b.json",
+      "count": 23687
+    },
+    "ぼ": {
+      "file": "by_first/307c.json",
+      "count": 7644
+    },
+    "ぽ": {
+      "file": "by_first/307d.json",
+      "count": 4564
+    },
+    "ま": {
+      "file": "by_first/307e.json",
+      "count": 38775
+    },
+    "み": {
+      "file": "by_first/307f.json",
+      "count": 36416
+    },
+    "む": {
+      "file": "by_first/3080.json",
+      "count": 9601
+    },
+    "め": {
+      "file": "by_first/3081.json",
+      "count": 10197
+    },
+    "も": {
+      "file": "by_first/3082.json",
+      "count": 16942
+    },
+    "や": {
+      "file": "by_first/3084.json",
+      "count": 25682
+    },
+    "ゆ": {
+      "file": "by_first/3086.json",
+      "count": 11366
+    },
+    "よ": {
+      "file": "by_first/3088.json",
+      "count": 18718
+    },
+    "ら": {
+      "file": "by_first/3089.json",
+      "count": 11105
+    },
+    "り": {
+      "file": "by_first/308a.json",
+      "count": 17065
+    },
+    "る": {
+      "file": "by_first/308b.json",
+      "count": 3538
+    },
+    "れ": {
+      "file": "by_first/308c.json",
+      "count": 8320
+    },
+    "ろ": {
+      "file": "by_first/308d.json",
+      "count": 10500
+    },
+    "わ": {
+      "file": "by_first/308f.json",
+      "count": 13471
+    },
+    "ゐ": {
+      "file": "by_first/3090.json",
+      "count": 10
+    },
+    "ゑ": {
+      "file": "by_first/3091.json",
+      "count": 34
+    },
+    "を": {
+      "file": "by_first/3092.json",
+      "count": 39
+    },
+    "ん": {
+      "file": "by_first/3093.json",
+      "count": 184
+    },
+    "ゔ": {
+      "file": "by_first/3094.json",
+      "count": 4982
+    }
+  }
+}
