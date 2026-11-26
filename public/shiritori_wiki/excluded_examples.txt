@@ -1,0 +1,100 @@
+読み対象外: !	!
+読み対象外: !!	!!
+読み対象外: !!!	!!!
+読み対象外: !!!!!!!!	!!!!!!!!
+読み対象外: !!!!!!!!/くんというかせつ	!!!!!!!!/君という仮説
+読み対象外: !!!FuckYou!!!	!!!Fuck You!!!
+読み対象外: !=	!=
+読み対象外: !?	!?
+読み対象外: !BYEBYE	!BYE BYE
+読み対象外: !LOUD!	!LOUD!
+読み対象外: !SHOUT!	!SHOUT!
+読み対象外: !(あいまいさかいひ)	! (曖昧さ回避)
+読み対象外: !-attention-	! -attention-
+読み対象外: !llnutupfam	!ll nut up fam
+読み対象外: !wagero!	!wagero!
+読み対象外: !［ai-ou］	!［ai-ou］
+読み対象外: "	"
+読み対象外: "3にんのごーすと"のてーま	"3人のゴースト"のテーマ
+読み対象外: "3にんのごーすと"のてーま〜こいをあなたに	"3人のゴースト"のテーマ〜恋をあなたに
+読み対象外: "74ers"LIVEINOSAKA-JOHALL2003	"74ers" LIVE IN OSAKA-JO HALL 2003
+読み対象外: "B"ORDERLESS	"B"ORDERLESS
+読み対象外: "BITTERSWEETMUSICBIZ"LIVEINBUDOKAN2002	"BITTER SWEET MUSIC BIZ" LIVE IN BUDOKAN 2002
+読み対象外: "BLUE"ATRIBUTETOYUTAKAOZAKI	"BLUE" A TRIBUTE TO YUTAKA OZAKI
+読み対象外: "BOMBERMANHERO"OriginalSoundTrack	"BOMBERMAN HERO" Original Sound Track
+読み対象外: "BUZZ!!"THEMOVIE	"BUZZ!!" THE MOVIE
+読み対象外: "Datewith......."7ORDERLIVETOUR2021-2022	"Date with......."7ORDER LIVE TOUR 2021-2022
+読み対象外: "Doすぽーつ"ぞーん	"Doスポーツ"ゾーン
+読み対象外: "E"qual	"E"qual
+読み対象外: "ETERNALHEAVEN"TOUR2010-2011	"ETERNAL HEAVEN" TOUR 2010-2011
+読み対象外: "GALAXYANGEL"CharacterSeries	"GALAXY ANGEL" Character Series
+読み対象外: "GIGS"CASEOFBOØWY	"GIGS" CASE OF BOØWY
+読み対象外: "GIGS"JUSTAHEROTOUR1986	"GIGS" JUST A HERO TOUR 1986
+読み対象外: "GRANDLOVE"ALIFEINMUSIC	"GRAND LOVE" A LIFE IN MUSIC
+読み対象外: "GREEN"ATRIBUTETOYUTAKAOZAKI	"GREEN" A TRIBUTE TO YUTAKA OZAKI
+読み対象外: "Gigs"CaseofBoøwy	"Gigs" Case of Boøwy
+読み対象外: "Gigs"JustAHeroTour1986	"Gigs" Just A Hero Tour 1986
+読み対象外: "Gigs"JustaHeroTour1986	"Gigs" Just a Hero Tour 1986
+読み対象外: "HAPPY"ComingCentury,20thCenturyForever	"HAPPY" Coming Century,20th Century Forever
+読み対象外: "HAPPY"ComingCentury,20thCenturyForever	"HAPPY" Coming Century, 20th Century Forever
+読み対象外: "Hello,world."	"Hello, world."
+読み対象外: "Kyoto"けんさく	"Kyoto"検索
+読み対象外: "LASTGIGS"(えいぞうさくひん)	"LAST GIGS" (映像作品)
+読み対象外: "LASTGIGS"LIVEATTOKYODOME"BIGEGG"APRIL4,51988	"LAST GIGS" LIVE AT TOKYO DOME "BIG EGG" APRIL 4,5 1988
+読み対象外: "LIVEphysical"ex.〜0126.2000t02002〜	"LIVE physical"ex.〜0126.2000 t 02002〜
+読み対象外: "LOVe"	"LOVe"
+読み対象外: "LUCKY"20thCentury,ComingCenturytobecontinued...	"LUCKY" 20th Century, Coming Century to be continued...
+読み対象外: "LastGigs"LiveatTokyoDome"BigEgg"April4,51988	"Last Gigs" Live at Tokyo Dome "Big Egg" April 4,5 1988
+読み対象外: "LivePhysical"-smallclubcircuit2001-	"Live Physical" -small club circuit 2001-
+読み対象外: "M"favoriteけいSounDs	"M" favorite 系 SounDs
+読み対象外: "MUSIC"(はやみゆうのあるばむ)	"MUSIC" (早見優のアルバム)
+読み対象外: "ONEOFPILLARS"〜BESTOFCHIHIROONITSUKA2000-2010〜	"ONE OF PILLARS" 〜BEST OF CHIHIRO ONITSUKA 2000-2010〜
+読み対象外: "OPENMUSICCABINET"LIVEINSAITAMASUPERARENA2007	"OPEN MUSIC CABINET" LIVE IN SAITAMA SUPER ARENA 2007
+読み対象外: "Q"	"Q"
+読み対象外: "R"	"R"
+読み対象外: "Showmetheway"	"Show me the way"
+読み対象外: "Sr.":ろばーと・だうにー・しにあのしようがい	"Sr.": ロバート・ダウニー・シニアの生涯
+読み対象外: "Sr.":ろばーと・だうにー・しにあのしようがい	"Sr.":ロバート・ダウニー・シニアの生涯
+読み対象外: "THERAILKITCHENCHIKUGO"	"THE RAIL KITCHEN CHIKUGO"
+読み対象外: "WHITEREFLECTION"THEMOVIE	"WHITE REFLECTION" THE MOVIE
+読み対象外: "WeirdAl"Yankovic	"Weird Al" Yankovic
+読み対象外: "X"plosionGUNDAMSEED	"X" plosion GUNDAM SEED
+読み対象外: "X"plosionGundamSeed	"X" plosion Gundam Seed
+読み対象外: "Yes"rhyme-dentity	"Yes"rhyme-dentity
+読み対象外: "brother"YASSHI	"brother"YASSHI
+読み対象外: "brother"YASSHI	"brother" YASSHI
+読み対象外: "le5emeAnniversaire"L'Histoirede2000a2005	"le 5 eme Anniversaire" L'Histoire de 2000 a 2005
+読み対象外: "thankyou"and"fromnow"KOTOKOLIVEINBUDOKAN2010『PleasureXPleas	"thank you" and "from now" KOTOKO LIVE IN BUDOKAN 2010 『Pleasure X Pleasure = Pleasure!!!』
+読み対象外: "white"	"white"
+読み対象外: "∠TARGET"LIVEINJCBHALL2010	"∠TARGET" LIVE IN JCB HALL 2010
+読み対象外: "さがえ"さくらんぼまらそんたいかい	"さがえ"さくらんぼマラソン大会
+読み対象外: "ふたりはぷりんせす"MaxHeartとーなめんと	"ふたりはプリンセス"Max Heartトーナメント
+読み対象外: "ほつと"いんふおめーしよん	"ほっと"インフォメーション
+読み対象外: "ほりえりく"	"ほりえりく"
+読み対象外: "ざ・ましんがん"かーる・あんだーそん	"ザ・マシンガン"カール・アンダーソン
+読み対象外: "すかーふえいす"・じよん・ういりあむず	"スカーフェイス"・ジョン・ウィリアムズ
+読み対象外: "だいやもんど"さかいりえ	"ダイヤモンド"酒井理絵
+読み対象外: "ていぴこ・おりえんたる"ふろむ・きゆーば	"ティピコ・オリエンタル"フロム・キューバ
+読み対象外: "なすてい"ぶらつく・ぱんさー	"ナスティ"ブラック・パンサー
+読み対象外: "ぶらつくぱんさー"べいのあ	"ブラックパンサー"ベイノア
+読み対象外: "ぽるのぐらふいていがやつてきた"LIVEINZEPPTOKYO2008	"ポルノグラフィティがやってきた" LIVE IN ZEPP TOKYO 2008
+読み対象外: "れめい"あしたてる	"レメイ"明日輝
+読み対象外: "ろいやるすとれーとふらつしゆ"LIVEINYOYOGIDAIICHITAIIKUKAN2009	"ロイヤル ストレート フラッシュ" LIVE IN YOYOGI DAIICHI TAIIKUKAN 2009
+読み対象外: "にんげんつてすばらしい"せりかわはるおのどようなまなまらんど〜5じかんですよ	"人間って素晴らしい"芹川晴夫の土曜生生ランド〜5時間ですよ
+読み対象外: "にんげんとせい"きよういくけんきゆうきようぎかい	"人間と性"教育研究協議会
+読み対象外: "かぶとおう"びーとる	"兜王"ビートル
+読み対象外: "てんねんばりあ"	"天然バリア"
+読み対象外: "こい"のさくらさく〜れんあいせれくしよん〜	"恋"のさくら咲く 〜恋愛セレクション〜
+読み対象外: "いとしいにんよ"GoodNight...	"愛しい人よ"Good Night...
+読み対象外: "ぶんがくしようじよ"としにたがりのどうけ	"文学少女"と死にたがりの道化
+読み対象外: "ぶんがくしようじよ"とおいしいはなし【れしぴ】	"文学少女"と美味しい噺【レシピ】
+読み対象外: "ぶんがくしようじよ"とうえかわくゆうれい	"文学少女"と飢え渇く幽霊
+読み対象外: "ぶんがくしようじよ"しりーず	"文学少女"シリーズ
+読み対象外: "しんたによしこはつぴい・はつぴい・すまいる'09"chu→lip☆Toyparade	"新谷良子 はっぴぃ・はっぴぃ・すまいる'09" chu→lip☆Toy parade
+読み対象外: "やなぎだそうこ"	"柳田倉庫"
+読み対象外: "もものせいしゆん"たつぐ	"桃の青春"タッグ
+読み対象外: "さつい"どくたーらんまる	"殺医"ドクター蘭丸
+読み対象外: "なぎさのえき"たてやま	"渚の駅"たてやま
+読み対象外: "むてきDEADSNAKE"	"無敵DEAD SNAKE"
+読み対象外: "むてきDEADSNAKE"	"無敵 DEAD SNAKE"
+読み対象外: "きようこぶし"たけうちゆうじ	"狂拳"竹内裕二

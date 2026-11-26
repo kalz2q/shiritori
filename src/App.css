@@ -264,3 +264,9 @@
 .introduction p {
   margin: 0;
 }
+
+.dictionary-title {
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: 600;
+}
